@@ -66,7 +66,7 @@ and open the template in the editor.
     <!--Fim do menu -->
     <div class="container-fluid" style="padding: 0px; margin-top: 10px">
         <div class="row" >
-            <div class="col-xs-12 col-lg-12" >
+            <div class="col-xs-12 col-lg-11" >
                 <a class="" href="#"><img style="width: 100%" src="<?php echo base_url('/img/prin10.png'); ?>" alt="imagem mostrando uma mulher no computador"/>
                 </a>
             </div>
