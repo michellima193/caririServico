@@ -54,8 +54,8 @@ and open the template in the editor.
                             </div> 
                             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2 col-lg-offset-2  "  style="padding:0px">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="#">Cadastre-se</a></li>
-                                    <li><a href="#">Login</a></li>
+                                    <li><a href="<?php echo base_url("/ControllerCadastro/trabalhador");?>">Cadastre-se</a></li>
+                                    <li><a href="<?php echo base_url('/Controller/index');?>">Login</a></li>
                                 </ul>
                             </div>
                             <!--Fim dos links-->
