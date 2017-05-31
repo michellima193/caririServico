@@ -70,7 +70,7 @@ and open the template in the editor.
                 <div class="col-xs-12 col-lg-12" >
                      <a class="" href="#"><img style="width: 100%" src="<?php echo base_url('/img/prin10.png'); ?>" alt="imagem mostrando uma mulher no computador"/>
                     </a>
-                  
+                  ee
                 </div>
             </div>
         </div>
