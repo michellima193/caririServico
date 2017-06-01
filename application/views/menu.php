@@ -15,7 +15,7 @@ and open the template in the editor.
         <script src="<?php echo base_url("bootstrap-3.3.7-dist/js/bootstrap.min.js"); ?>"></script>
 
     </head>
-    <body>  
+    <body class="menu">  
         <!--Começo menu -->
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container-fluid">
@@ -51,14 +51,13 @@ and open the template in the editor.
    
                                    </ul>
                                </div> -->
-                            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10"  style="padding:0px">
+                            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10">
                                 <ul class="nav navbar-nav navbar-right">
                                     <li><a href="#">Serviços</a></li>
                                     <li><a href="#">Trabalhador</a></li>
                                     <li><a href="#">Quem Somos</a></li>
-
                                     <li><a href="<?php echo base_url("/ControllerCadastro/trabalhador"); ?>"><span class="glyphicon glyphicon-user"style="font-size: 15px; "></span>  Cadastre-se</a></li>
-                                    <li><a href="<?php echo base_url('/Controller/index'); ?>">Login</a></li>
+                                    <li><a href="<?php echo base_url('/Controller/index'); ?>"> &brvbar; Login</a></li>
                                 </ul>
                             </div>
                             <!--Fim dos links-->
