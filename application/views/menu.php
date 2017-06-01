@@ -21,7 +21,7 @@ and open the template in the editor.
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" style="background-color:" >
-    
+
                         <!--CABEÇALHO DO MENU-->
                         <div class="navbar-header">
                             <!-- CRIANDO O BOTAO ,AONDE VAO FICAR O MENU QUANDO A TELA FOR PEQUENA
@@ -43,18 +43,22 @@ and open the template in the editor.
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                             <!--Começo dos links-->
-                            <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6" style="padding:0px;" >
-                                <ul class="nav navbar-nav" >
+                            <!--   <div class="col-xs-12 col-sm-5 col-md-6 col-lg-6" style="padding:0px;" >
+                                   <ul class="nav navbar-nav" >
+                                       <li><a href="#">Serviços</a></li>
+                                       <li><a href="#">Trabalhador</a></li>
+                                       <li><a href="#">Quem Somos</a></li>
+   
+                                   </ul>
+                               </div> -->
+                            <div class="col-xs-12 col-sm-9 col-md-10 col-lg-10"  style="padding:0px">
+                                <ul class="nav navbar-nav navbar-right">
                                     <li><a href="#">Serviços</a></li>
                                     <li><a href="#">Trabalhador</a></li>
                                     <li><a href="#">Quem Somos</a></li>
 
-                                </ul>
-                            </div> 
-                            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-2 col-lg-offset-2  "  style="padding:0px">
-                                <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="<?php echo base_url("/ControllerCadastro/trabalhador");?>">Cadastre-se</a></li>
-                                    <li><a href="<?php echo base_url('/Controller/index');?>">Login</a></li>
+                                    <li><a href="<?php echo base_url("/ControllerCadastro/trabalhador"); ?>"><span class="glyphicon glyphicon-user"style="font-size: 15px; "></span>  Cadastre-se</a></li>
+                                    <li><a href="<?php echo base_url('/Controller/index'); ?>">Login</a></li>
                                 </ul>
                             </div>
                             <!--Fim dos links-->
@@ -64,6 +68,6 @@ and open the template in the editor.
             </div>
         </nav>
         <!--Fim do menu -->
-       
+
     </body>
 </html>
