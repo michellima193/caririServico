@@ -51,7 +51,7 @@
                     </div>
                     <div class="form-group">
                         <label for="Email">Email:</label>
-                        <input type="email" class="form-control" name="Email" id="Email" placeholder="e-mail"/>
+                        <input type="email" class="form-control " name="Email" id="Email" placeholder="e-mail"/>
                     </div>
                     <div class="form-group">
                         <label for="Telefone1">Telefone 1 :</label>
