@@ -2,11 +2,9 @@
 
 class ControllerCadastro extends CI_Controller {
 
-    
-     public function trabalhador(){
-      //  $this->load->view('index.php');
-       
-         $this->load->view('pagCadastro');
+    public function trabalhador() {
+        $this->load->view('menu');
+        $this->load->view('pagCadastro');
     }
 
     public function cadastro() {
@@ -40,7 +38,6 @@ class ControllerCadastro extends CI_Controller {
         );
         $this->modelCadastro->inserirDados($usuario, $contato, $localizacao, $login); //Passagem de ARRAYS como parâmetros
         $this->modelCadastro->uparDados($this->input->post('CPF')); //Usa o CPF que é UNIQUE para identificar e IGUALAR !
-
         //Views a serem chamadas
         $this->load->view('index.php');
         $this->load->view('cadastroOk');
