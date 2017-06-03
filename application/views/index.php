@@ -27,7 +27,7 @@ and open the template in the editor.
                     <div class="col-xs-12 col-lg-12" >
                             <div class="col-xs-12 col-lg-6" >
                     <div class="jumbotron" style="position: absolute; top: 240px; left:100px;">
-                            seja bem vindo dffffsfasfdasddaaaaaaaaaaaaaaa
+                            seja bem vindo MONICK
                  </div></div>
                         <a class="" href="#"><img style="width: 100%" src="<?php echo base_url('/img/prin10.png'); ?>" alt="imagem mostrando uma mulher no computador"/>
                         </a>
